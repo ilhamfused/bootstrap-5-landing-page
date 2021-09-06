@@ -1,5 +1,18 @@
-$primary : red;
+@use "custom";
 
-.test-1 {
-    color: $primary;
-}
+// components
+@use "components/animations";
+@use "components/buttons";
+@use "components/mixins";
+@use "components/typography";
+
+// sections
+@use "sections/navbar";
+@use "sections/intro";
+@use "sections/companies";
+@use "sections/services";
+@use "sections/testimonials";
+@use "sections/faq";
+@use "sections/portfolio";
+@use "sections/starter";
+@use "sections/footer";
