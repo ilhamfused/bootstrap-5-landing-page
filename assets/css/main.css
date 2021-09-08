@@ -11112,5 +11112,52 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.btn-rounded {
+  position: relative;
+  padding: 0.9375rem 4.375rem 0.9375rem 1.2rem;
+  font-weight: 700;
+  margin: 0;
+  border: 0.1rem solid rgba(255, 255, 255, 0.6);
+  background-color: #fff;
+}
+.btn-rounded span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  background-color: #9926f0;
+  width: 2.5rem;
+  height: 2.5rem;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+  border-radius: 50%;
+}
+.btn-rounded i {
+  color: white;
+  font-size: 1rem;
+}
+.btn-rounded:hover {
+  background: linear-gradient(to right, #9926f0, #d122e3);
+  color: #fff;
+}
+.btn-rounded:hover span {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.menu {
+  background: linear-gradient(to right, #9926f0, #d122e3);
+}
+
+ul {
+  display: flex;
+  align-items: center;
+}
+ul li {
+  padding: 0 0.7rem;
+}
+ul li a {
+  font-weight: 600;
+}
 
 /*# sourceMappingURL=main.css.map */
