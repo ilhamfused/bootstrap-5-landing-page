@@ -10,10 +10,16 @@ ul {
     align-items: center;
 
     li {
-        padding: 0 0.7rem;
+        padding: 0rem 0.7rem;
+        // border-radius: 3.4rem;
 
         a {
             font-weight: 600;
+        }
+
+        &:hover {
+            background-color: rgba($black, .2);
+
         }
     }
 }
